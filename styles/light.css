@@ -13,12 +13,14 @@
   --title-color: #FFC2E6;
   --accent-color: #353430;
   --text-shadow: #FF8DCB;
+  --text-color: #353430;
   --outline-color: #353430;
+  --outline-link-color: #353430;
   /* --hover-border-color: rgb(255 0 112 / 0.4); */
   --hover-border-color: #32312D66;
   --bg-color: #FF8DCB;
   --background-color: #FFF1F7;
-  --subtitle-text-color: #ff0070;
+  --subtitle-text-color: #353430;
   --main-text-color: #353430;
   --accent-text-color: #353430;
   --bg-img: url(../images/cover-image-light.png);
@@ -33,8 +35,11 @@
   --title-color: #FFC2E6;
   --accent-color: #353430;
   --text-shadow: #FF8DCB;
+  --text-color: #353430;
   --bg-color: #FF8DCB;
-  --subtitle-text-color: #ff0070;
+  --outline-color: #353430;
+  --outline-link-color: #353430;
+  --subtitle-text-color: #353430;
   --btn-hover-border-color: rgb(255 0 112 / 0.4);
   --main-text-color: #353430;
   --accent-text-color: #353430;

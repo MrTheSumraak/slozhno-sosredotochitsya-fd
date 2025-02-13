@@ -8,9 +8,10 @@
     <title>Сложно сосредоточиться</title>
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
@@ -92,11 +93,9 @@
         </article>
       </section>
       <section class="section grid-template">
-        <h2 class="section-title inline-size">
-          Что снижает концентрацию внимания?
-        </h2>
+        <h2 class="section-title">Что снижает концентрацию внимания?</h2>
         <div class="section__container-wrapper">
-          <article class="section__container">
+          <article>
             <h3 class="section__container-title title-decor">
               Многозадачность
             </h3>
@@ -109,7 +108,7 @@
               может не выдержать, если не давать ей отдохнуть.
             </p>
           </article>
-          <article class="section__container">
+          <article>
             <h3 class="section__container-title title-decor">Еда</h3>
             <p class="section__container-text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -120,7 +119,7 @@
               хотим ещё больше быстрых углеводов.
             </p>
           </article>
-          <article class="section__container">
+          <article>
             <h3 class="section__container-title title-decor">Гаджеты</h3>
             <p class="section__container-text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -134,15 +133,15 @@
           </article>
         </div>
       </section>
-      <section class="section grid-section">
+      <section class="section grid-section-rows">
         <h2 class="section-title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
+        <h3 class="section__container-title title-decor margin-block">
+          5 простых (на самом деле не очень) советов
+        </h3>
         <article class="section__container">
-          <h3 class="section__container-title title-decor">
-            5 простых (на самом деле не очень) советов
-          </h3>
           <h4 class="section__container-title title-decor weight">
             Представьте небо и облака
           </h4>
@@ -158,9 +157,9 @@
           </p>
         </article>
         <article class="section__container">
-          <h3 class="section__container-title title-decor weight">
+          <h4 class="section__container-title title-decor weight">
             Включите музыку
-          </h3>
+          </h4>
           <p class="section__container-text">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -169,9 +168,9 @@
           </p>
         </article>
         <article class="section__container">
-          <h3 class="section__container-title title-decor weight">
+          <h4 class="section__container-title title-decor weight">
             Прогуляйтесь
-          </h3>
+          </h4>
           <p class="section__container-text">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
             <a
@@ -187,9 +186,9 @@
           </p>
         </article>
         <article class="section__container">
-          <h3 class="section__container-title title-decor weight">
+          <h4 class="section__container-title title-decor weight">
             Хорошо ешьте
-          </h3>
+          </h4>
           <p class="section__container-text">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
@@ -198,7 +197,7 @@
           </p>
         </article>
         <article class="section__container">
-          <h3 class="section__container-title title-decor weight">Читайте</h3>
+          <h4 class="section__container-title title-decor weight">Читайте</h4>
           <p class="section__container-text">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
@@ -208,10 +207,10 @@
         </article>
       </section>
       <section class="section__gallery">
-        <h3 class="section__container-title title-decor">
+        <h2 class="section__container-title title-decor">
           А можно в картинках?
-        </h3>
-        <picture class="gallery">
+        </h2>
+        <div class="gallery">
           <img
             class="gallery-img sunset-img"
             src="./images/sunset.png"
@@ -242,12 +241,12 @@
             alt="Переулок"
             loading="lazy"
           />
-        </picture>
+        </div>
       </section>
     </main>
 
     <footer class="footer decorated-zone">
-      <h2 class="title shadow-title">focus</h2>
+      <h2 class="title shadow-title-footer">focus</h2>
     </footer>
   </body>
 </html>

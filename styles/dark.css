@@ -51,9 +51,9 @@
   --font-family: "IBM Plex Mono", sans-serif;
   }
 
-  .theme_dark .header__decoration-block {
+  /* .header__decoration-block {
     display: block;
-  }
+  } */
 }
 
 .theme_dark .header__decoration-block {

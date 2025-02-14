@@ -1,8 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  width: 23.4rem;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  width: 375px; 
   background-image: var(--bg-img);
   background-color: var(--background-color);
   background-position: center;
@@ -91,21 +91,22 @@
   font-size: var(--main-font-size);
   font-weight: 400;
   line-height: 1;
-  margin-inline-end: 8px;
-  margin-block-end: 5px;
+  /* margin-inline-end: 8px;
+  margin-block-end: 5px; */
+}
+
+.header__theme-menu-button {
+  width: 70px;
+  background-color: transparent;
+  border: 0;
+  text-transform: lowercase;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:focus-visible {
   border: 0;
   outline: 0;
   border-bottom: 1px solid var(--hover-border-color);
-}
-
-.header__theme-menu-button {
-  background-color: transparent;
-  border: 0;
-  text-transform: lowercase;
-  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
@@ -127,9 +128,6 @@
   text-shadow: 4px 4px 0 var(--text-shadow);
 }
 
-
-
-
 .header-text {
   font-family: var(--font-family);
   font-size: var(--main-font-size);  /*18px*/
@@ -141,6 +139,8 @@
 .title-decor {
   background-color: var(--bg-color);
 }
+
+/* секцмя main */
 
 .main {
   width: 100%;
@@ -217,6 +217,8 @@ p > a:hover {
   object-fit: cover;
   object-position: center;
 }
+
+/* секция footer */
 
 .footer {
   height: 100vh;

@@ -14,7 +14,7 @@
   --small: 10px;
   --medium: 20px;
   --large: 50px;
-  --hover-border-color: rgb(255 0 112 / 0.4);
+  --hover-border-color: #FF0070;
   --main-text-color: #f1b2ce;
   --text-color: #000028;
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

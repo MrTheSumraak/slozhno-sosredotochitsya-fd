@@ -52,8 +52,7 @@
   width: 9px;
   height: 9px;
   background-color: var(--accent-color);
-  filter: drop-shadow(0 0 4px var(--accent-color));
-  /* text-shadow: 4px 4px 0px var(--accent-color); */
+  box-shadow: 0 0 4px 2px var(--accent-color);
   border-radius: 50%;
 }
 
@@ -85,18 +84,17 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  row-gap: 1.0625rem; /*17px*/
+  row-gap: 0.625rem; /*10px*/
   font-family: var(--font-family);
   color: var(--accent-color);
   font-size: var(--main-font-size);
   font-weight: 400;
   line-height: 1;
-  /* margin-inline-end: 8px;
-  margin-block-end: 5px; */
 }
 
 .header__theme-menu-button {
   width: 70px;
+  min-height: 26px;
   background-color: transparent;
   border: 0;
   text-transform: lowercase;
@@ -111,8 +109,7 @@
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--outline-color);
-  outline-offset: 3px;
-  pointer-events: none;
+  /* outline-offset: 3px; */
   pointer-events: none;
 }
 

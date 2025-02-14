@@ -11,9 +11,6 @@
 
    .header > .title {
       justify-self: start;
-   }
-
-   .header > .title {
       margin-inline-start: -20px;
    }
 
@@ -41,15 +38,12 @@
       display: grid;
       grid-template-columns: 1fr 2fr;
       grid-template-rows: 2.8rem 1fr;
+      padding-block-start: 20px;
+      column-gap: 20px;
    }
 
    .section {
       margin-block-end: 60px;
-   }
-
-   .grid-section-rows {
-      padding-block-start: 20px;
-      column-gap: 20px;
    }
 
    .section-title {
